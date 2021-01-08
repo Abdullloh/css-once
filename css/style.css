@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 0;
+}
+section {
+  height: 655px;
+  width: 100%;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  margin: 0px;
+  font-weight: 800;
+}
+
+#first-section {
+  background: url(https://img.freepik.com/free-vector/fireworks-new-year-2021_52683-49701.jpg?size=626&ext=jpg)
+    no-repeat fixed;
+  background-size: cover;
+}
+#third-section {
+  height: 1150px;
+
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+.gal-item-width {
+  width: 435px;
+  height: 360px;
+}
+.gal-item-height {
+  width: 270px;
+
+  height: 360px;
+  margin: 0 5px;
+}
+#container {
+  text-align: center;
+  color: aliceblue;
+}
+#container button {
+  height: 52px;
+  width: 198px;
+  font-size: 31px;
+  border-radius: 50px;
+  background: #3980be;
+  color: aliceblue;
+  border-style: solid;
+  border-color: transparent;
+}
+.odd {
+  height: 80px;
+  width: 100%;
+  background: rgba(65, 64, 64, 0.842);
+}
+.description {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+  line-height: 80px;
+  color: aliceblue;
+}
+#paragraph {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
